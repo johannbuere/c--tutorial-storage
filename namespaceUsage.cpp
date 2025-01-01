@@ -9,9 +9,13 @@ namespace dalawa{
     int x = 2;
 }
 
-int main(){
+namespace gagamitin{
+    int x = 3;
+}
 
-    int x = 0;
+
+int main(){
+    using namespace gagamitin;
 
 
     std::cout << x;
@@ -20,3 +24,11 @@ int main(){
 
     return 0;
 }
+
+/* we may also do "using namespace std;" so that we wont need to use the prefix for outputs and string declaration
+
+    A best alternative and safer option would be to declare  it like below:
+    using std::count;
+    using std::strings;
+
+*/
