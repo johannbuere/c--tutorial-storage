@@ -1,0 +1,1 @@
+the same as c. arithmetic operators did not change
