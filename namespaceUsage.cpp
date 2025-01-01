@@ -28,7 +28,7 @@ int main(){
 /* we may also do "using namespace std;" so that we wont need to use the prefix for outputs and string declaration
 
     A best alternative and safer option would be to declare  it like below:
-    using std::count;
+    using std::cout;
     using std::strings;
 
 */
